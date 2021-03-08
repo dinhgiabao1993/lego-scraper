@@ -11,7 +11,6 @@
 - Run ```$ npm install```
 - Run ```$ composer install```
 - Run ```$ php artisan migrate```
-- Run ```$ php artisan serve --port={port} --host={host}```
 
 
 ## Testing
@@ -27,6 +26,7 @@ Run ```$ php artisan scrape:retiring_soon_products```
 
 ### UI
 
+- Run ```$ php artisan serve --port={port} --host={host}```
 - Run ```$ npm run watch```
 - Access /app
 
