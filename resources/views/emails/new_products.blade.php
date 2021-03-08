@@ -6,7 +6,7 @@
 <table>
     <thead>
         <tr>
-            <th>Id</th>
+            <th>#</th>
             <th>Marketplace</th>
             <th>Item Number</th>
             <th>Listing Url</th>
