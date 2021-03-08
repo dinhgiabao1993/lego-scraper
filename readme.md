@@ -28,5 +28,5 @@ Run ```$ php artisan scrape:retiring_soon_products```
 
 - Run ```$ php artisan serve --port={port} --host={host}```
 - Run ```$ npm run watch```
-- Access /app
+- Access ```{base_url}/app```
 
