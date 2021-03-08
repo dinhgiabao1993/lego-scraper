@@ -8,6 +8,8 @@
 - Run ```$ git clone {repo}```
 - Clone ```.env.example``` and name it ```.env```
 - Edit ```.env``` in root folder for email, database settings, base url, .etc for now using mailtrap in local env
+- Run ```$ npm install```
+- Run ```$ composer install```
 - Run ```$ php artisan migrate```
 - Run ```$ php artisan serve --port={port} --host={host}```
 
