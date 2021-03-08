@@ -6,6 +6,7 @@
 ## Install
 
 - Run ```$ git clone {repo}```
+- Clone ```.env.example``` and name it ```.env```
 - Edit ```.env``` in root folder for email, database settings, base url, .etc for now using mailtrap in local env
 - Run ```$ php artisan migrate```
 - Run ```$ php artisan serve --port={port} --host={host}```
@@ -15,7 +16,7 @@
 
 ### Scaper Command
 
-Run ```$ php artisan scrape:retiring_soon_products
+Run ```$ php artisan scrape:retiring_soon_products```
 
 ### Cron
 
