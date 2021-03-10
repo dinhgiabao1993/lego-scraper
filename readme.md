@@ -17,7 +17,8 @@
 
 ### Scaper Command
 
-Run ```$ php artisan scrape:retiring_soon_products```
+- Run ```$ php artisan scrape:retiring_soon_products```
+- Or access this endpoint to trigger the process immediately ```GET {base_url}/scrape```
 
 ### Cron
 

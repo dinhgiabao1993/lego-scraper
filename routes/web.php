@@ -11,6 +11,8 @@
 |
 */
 
+use Illuminate\Support\Facades\Artisan;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -20,3 +22,8 @@ Route::any('app/{any?}', function() {
 })->where('any', '.*');
 
 Route::get('products', 'RetiringSoonProductController@paginate');
+
+Route::get('scrape', function() {
+    Artisan::call('scrape:retiring_soon_products');
+    return 'OK';
+});
