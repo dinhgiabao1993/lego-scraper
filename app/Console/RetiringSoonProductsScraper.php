@@ -10,7 +10,6 @@ use App\Traits\CurrencyMapper;
 use App\Traits\GeneralExceptionRaiser;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\Log;
 
 class RetiringSoonProductsScraper extends Command
 {

@@ -15,6 +15,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         RetiringSoonProductsScraper::class,
+        ScheduleOnHeroku::class,
     ];
 
     /**
@@ -28,7 +29,8 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
         $schedule->command('scrape:retiring_soon_products')
-            ->twiceDaily()
+            // ->twiceDaily()
+            ->everyFiveMinutes()
             ->before(function () {
                 Log::info('Start scraping retiring soon products');
             })
